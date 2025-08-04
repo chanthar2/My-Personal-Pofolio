@@ -1,0 +1,242 @@
+@font-face {
+    font-family: url(Dancing_Script,Libertinus_Sans,PT_Sans/Libertinus_Sans);
+}
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color:rgb(116, 109, 109);
+    font-family:url(Dancing_Script,Libertinus_Sans,PT_Sans/Libertinus_Sans/LibertinusSans-Bold.ttf) ;
+}  
+
+/*common*/
+.main-container {
+    background-color:rgb(253, 252, 251);
+    padding-top: 50px ;
+    
+}
+#header .container {
+    background-color:aliceblue;
+    border: 3px solid white;
+    border-radius:10px ;
+}
+.container {
+     max-width: 900px;
+    /*border:2px solid green;*/
+    margin:auto;
+    display:flex;
+    
+}
+.box-shadow {
+    box-shadow: 3px 3px 5px rgb(55, 48, 48);
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}#aboutme, #myskills, #myworks, #contactme {
+
+    margin-top: 50px;
+}
+#header {
+   /* border:2px solid red;*/
+
+}
+#header .container {
+    max-width: 900px;
+    /*border:2px solid green;*/
+    margin:auto;
+    display:flex;
+    align-items: center;
+    color:rgb(116, 109, 109);
+}
+#header .container .content-div {
+    flex-basis: 60%;
+    text-align: center;
+    line-height: 25px;
+
+
+}
+
+#header .container .content h4 {
+    letter-spacing: 5px;
+}
+#header .container .content h4,
+#header .container .content h1,
+#header .container .content p{
+    margin-bottom: 20px;
+    background-color: ;
+}
+
+#header .container .image-div {
+    flex-basis: 40%;
+}
+#header .container .image-div img {
+    width:100%;
+}
+#social-icons {
+    margin:15px;
+    font-size: 30px;
+
+}
+.social-icons .fa-youtube {
+    color: rgb(228, 64, 95)
+  
+}
+.social-icons .fa-instagram {
+    color:rgb(138, 55, 69);
+  
+}
+.social-icons .fa-facebook {
+    color:rgb(6, 6, 181)
+}
+/*About Me CSS*/
+#aboutme {
+    margin-top: 50px;
+}
+#aboutme .container {
+    align-items: center;
+}
+#aboutme .container > div {
+    /*border: 3px solid orange;*/
+    flex-basis: 50%;
+}#aboutme. content h2 {
+    line-height:30px ;
+
+}
+#aboutme .image-div img {
+    width:180px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display:block;
+}
+/*myskills*/
+#myskills {
+    margin:30px;
+}
+
+#myskills .container {
+    align-items: center;
+}
+#myskills .container > div{
+   /* border:3px solid red;*/
+    flex-basis: 50%;
+}
+#myskills .content .title-2,
+#myskills .content  .title-3 {
+margin-top: 30px;
+}
+#myskills .content ul {
+    list-style-type: none;
+}
+#myskills .content ul li {
+    border:2px solid whitesmoke;
+    display: inline-block;
+    background-color: aliceblue;
+    padding:5px 10px;
+    margin:5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#myskills .image-div {
+    /*padding: 100px 20px;*/
+}
+#myskills .image-div img {
+width:250px;
+margin:auto;
+display: block;
+border-radius: 10px;
+}
+/*Myworks*/
+#myworks {
+    margin:50px;
+}
+#myworks .container {
+    justify-content: space-between;
+    /*border:2px solid green;*/
+
+}
+#myworks .card {
+    flex-basis: 30%;
+    background-color:antiquewhite;
+    padding:10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 2s;    
+}
+#myworks .card:hover {
+    background-color:azure ;
+    transform: scale(1.2);
+    
+
+}
+#contactme .container div {
+  /* border:2px solid red;*/
+   flex-basis: 50%;
+   
+}
+#contactme ul {
+    list-style-type: none;
+    line-height: 40px;
+    font-weight: bold;
+}
+#contactme .form .form-gruop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 35px;
+
+
+}
+#contactme .form .textarea,
+#contactme .form .form-group input,#contactme .form button {
+     border-radius: 5px;
+    border:none;
+    padding: 0 5px;
+    margin-bottom: 10px;
+
+}
+#contactme .form .form-group input {
+    flex-basis: 49%;
+    height: 35px;
+ 
+}
+
+#contactme .form .textarea {
+    width:100%;
+    height:35px;
+    margin-top: 30px;
+    
+    
+}
+#contactme .form button {
+    padding:5px 20px;
+    display: flex;
+    margin-left: 100px;
+    
+}
+#footer {
+    background-color:aliceblue;
+}
+#footer .container {
+    padding: 30px 0 50px 0;
+    justify-content: space-between;
+}
+#footer .container .column {
+    flex-basis: 33%;
+     /* border:2px solid red;*/
+      line-height: 30px;
+      text-align: center;
+}
+#footer .column h3 {
+    margin-bottom: 20px;
+}
+#footer .container ul {
+    list-style-type:none ;
+  /*  border:2px solid red;*/
+}
+#footer .container ul li a {
+    
+    text-decoration: none;
+}
